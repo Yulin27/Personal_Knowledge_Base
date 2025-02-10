@@ -4,7 +4,7 @@ class ClassificationService:
     def __init__(self, model:BaseModel):
         self.model = model
 
-    def classify(self, text:str, labels:list, max_token:int=100, temperature:float=0):
+    def classify(self, text:str, labels:list, max_token:int=50, temperature:float=0):
         """
         Perform text classification.
         :param text: The text to classify.

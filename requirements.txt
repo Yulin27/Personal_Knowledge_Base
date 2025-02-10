@@ -1,0 +1,9 @@
+psycopg2
+sentence-transformers
+plotly 
+pandas 
+dash
+pyvis
+matplotlib
+
+

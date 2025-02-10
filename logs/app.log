@@ -1,0 +1,407 @@
+2025-02-09 12:11:57,192 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 12:11:57,192 - INFO - Response: {'id': 'chatcmpl-9394f3c5-4e6c-4f82-8dbf-59d418be235c', 'object': 'chat.completion', 'created': 1739099517, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Technology'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.019364725, 'prompt_tokens': 357, 'prompt_time': 0.04301403, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 359, 'total_time': 0.044680697}, 'system_fingerprint': 'fp_a97cfe35ae', 'x_groq': {'id': 'req_01jkn6hc3jfvzvska7w3fd2f2a'}}
+2025-02-09 12:13:29,798 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 12:13:29,799 - INFO - Response: {'id': 'chatcmpl-e2b2988a-72a4-4d55-a0e3-44f3bfce9259', 'object': 'chat.completion', 'created': 1739099609, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Technology'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.025180460999999994, 'prompt_tokens': 357, 'prompt_time': 0.044521966, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 359, 'total_time': 0.046188633}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jkn6m6jwep58cqfm99n1q94w'}}
+2025-02-09 13:39:46,887 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 13:39:46,887 - INFO - Response: {'id': 'chatcmpl-8cac3efd-774b-4643-adb7-002627c8e482', 'object': 'chat.completion', 'created': 1739104786, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 编码器-解码器架构（Encoder-Decoder Architecture）\n\nKey Words: Transformer模型, 编码器-解码器架构, 注意力机制, 缩放点积注意力, 前馈神经网络, 残差连接, 层归一化\n\nSummary: 本文介绍了Transformer模型的编码器-解码器架构，包括编码层和解码层的功能、注意力机制和缩放点积注意力的工作原理。编码层和解码层使用注意力机制来确定输入数据的相关性，并使用前馈神经网络和残差连接来处理输出。缩放点积注意力单元是Transformer模型的基本构建单元，用于计算标记之间的注意力权重。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.290736628, 'prompt_tokens': 1158, 'prompt_time': 0.06372177, 'completion_tokens': 174, 'completion_time': 0.522757911, 'total_tokens': 1332, 'total_time': 0.586479681}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jknbj5f4fsbay8hr9t19hfny'}}
+2025-02-09 15:06:04,109 - INFO - Connected to Postgres
+2025-02-09 15:06:04,155 - INFO - Table knowledge_base created
+2025-02-09 15:21:53,837 - INFO - Connected to Postgres
+2025-02-09 15:22:05,206 - INFO - Connected to Postgres
+2025-02-09 15:22:34,282 - INFO - Connected to Postgres
+2025-02-09 15:25:21,144 - INFO - Connected to Postgres
+2025-02-09 15:25:21,156 - ERROR - Error creating table: relation "knowledge_base" already exists
+
+2025-02-09 15:25:21,156 - INFO - Table knowledge_base already exists
+2025-02-09 15:25:42,182 - INFO - Connected to Postgres
+2025-02-09 15:25:42,193 - ERROR - Error creating table: relation "knowledge_base" already exists
+
+2025-02-09 15:34:29,653 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 15:34:29,655 - INFO - Response: {'id': 'chatcmpl-a7782814-6109-4f51-9cf6-e83bff85662f', 'object': 'chat.completion', 'created': 1739111669, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 机器学习\nKey Words: 人工智能, 算法, 统计学, 数据挖掘, 计算机视觉, 自然语言处理\nSummary: 机器学习是人工智能的一个分支，主要设计和分析让计算机自动“学习”的算法，应用于多个领域，如数据挖掘、计算机视觉、自然语言处理等。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 1.855466223, 'prompt_tokens': 344, 'prompt_time': 0.047973394, 'completion_tokens': 91, 'completion_time': 0.287127708, 'total_tokens': 435, 'total_time': 0.335101102}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jknj45nsfwv8k4d9ktwbekq9'}}
+2025-02-09 15:34:30,199 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 15:34:30,200 - INFO - Response: {'id': 'chatcmpl-6c232c86-2805-4500-abeb-1ae9a747f024', 'object': 'chat.completion', 'created': 1739111670, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.26461009599999996, 'prompt_tokens': 344, 'prompt_time': 0.057021611, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 346, 'total_time': 0.058688278}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknj4821e5jtgsa56wtke3wd'}}
+2025-02-09 15:34:30,274 - INFO - Use pytorch device_name: mps
+2025-02-09 15:34:30,274 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 15:35:04,286 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 15:35:04,287 - INFO - Response: {'id': 'chatcmpl-955dea7c-edd6-4c2c-b0b3-001262954822', 'object': 'chat.completion', 'created': 1739111703, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 机器学习\nKey Words: 人工智能, 算法, 统计学, 数据挖掘, 计算机视觉, 自然语言处理\nSummary: 机器学习是人工智能的一个分支，主要设计和分析让计算机自动“学习”的算法，应用于多个领域，如数据挖掘、计算机视觉、自然语言处理等。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.342203706, 'prompt_tokens': 344, 'prompt_time': 0.031768469, 'completion_tokens': 91, 'completion_time': 0.277283715, 'total_tokens': 435, 'total_time': 0.309052184}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jknj58zhfemaxc9fdrvkre0c'}}
+2025-02-09 15:35:04,899 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 15:35:04,900 - INFO - Response: {'id': 'chatcmpl-50e497b0-9e3d-471f-9e75-f10f38398183', 'object': 'chat.completion', 'created': 1739111704, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.26487128699999996, 'prompt_tokens': 344, 'prompt_time': 0.068826833, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 346, 'total_time': 0.0704935}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknj59v2e5mrw3rc00zr3mr6'}}
+2025-02-09 15:35:04,927 - INFO - Use pytorch device_name: mps
+2025-02-09 15:35:04,927 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 15:35:07,275 - INFO - Connected to Postgres
+2025-02-09 15:40:40,150 - INFO - Connected to Postgres
+2025-02-09 15:40:40,182 - INFO - Table knowledge_base created
+2025-02-09 15:40:53,168 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 15:40:53,169 - INFO - Response: {'id': 'chatcmpl-09698be1-8c0e-41d9-923b-6e1705b0eec8', 'object': 'chat.completion', 'created': 1739112052, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 机器学习\nKey Words: 人工智能, 算法, 统计学, 数据挖掘, 计算机视觉, 自然语言处理\nSummary: 机器学习是人工智能的一个分支，主要设计和分析让计算机自动“学习”的算法，应用于多个领域，如数据挖掘、计算机视觉、自然语言处理等。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.316628038, 'prompt_tokens': 344, 'prompt_time': 0.024488389, 'completion_tokens': 91, 'completion_time': 0.269606449, 'total_tokens': 435, 'total_time': 0.294094838}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jknjfxq8ff1tyzbxgkpwr5ke'}}
+2025-02-09 15:40:53,677 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 15:40:53,677 - INFO - Response: {'id': 'chatcmpl-e9f06000-6a46-47ae-8ffe-d998b39a510c', 'object': 'chat.completion', 'created': 1739112053, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.263277167, 'prompt_tokens': 344, 'prompt_time': 0.043015244, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 346, 'total_time': 0.044681911}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknjfygze39sfrb2qxq12vkb'}}
+2025-02-09 15:40:53,717 - INFO - Use pytorch device_name: mps
+2025-02-09 15:40:53,717 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 15:40:56,223 - INFO - Connected to Postgres
+2025-02-09 15:40:56,246 - INFO - Data inserted into knowledge_base
+2025-02-09 18:22:19,287 - INFO - Connected to Postgres
+2025-02-09 18:22:38,435 - INFO - Connected to Postgres
+2025-02-09 18:24:20,888 - INFO - Connected to Postgres
+2025-02-09 18:24:30,439 - INFO - Connected to Postgres
+2025-02-09 18:25:31,989 - INFO - Connected to Postgres
+2025-02-09 18:25:47,981 - INFO - Connected to Postgres
+2025-02-09 18:26:00,111 - INFO - Connected to Postgres
+2025-02-09 18:27:19,813 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:27:19,814 - INFO - Response: {'id': 'chatcmpl-d58823a5-0ef9-4b5e-9d59-fe1f60024757', 'object': 'chat.completion', 'created': 1739122039, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 监督学习 (Supervised Learning)\nKey Words: 机器学习, 训练资料, 模式, 函数, 分类, 回归分析\nSummary: 监督学习是一种机器学习方法，通过训练资料学习或建立模式，以预测新的实例，输出可以是连续值或分类标签，学习者需从现有资料中一般化到非观察到的情况。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.27693882400000003, 'prompt_tokens': 265, 'prompt_time': 0.018961419, 'completion_tokens': 95, 'completion_time': 0.293802497, 'total_tokens': 360, 'total_time': 0.312763916}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jknw0p4jet8s7e0vevbnhc9m'}}
+2025-02-09 18:27:20,339 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:27:20,339 - INFO - Response: {'id': 'chatcmpl-7f08bfc2-d391-473a-b962-a84be6e8652f', 'object': 'chat.completion', 'created': 1739122040, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.26288049700000005, 'prompt_tokens': 265, 'prompt_time': 0.033191936, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 267, 'total_time': 0.034858603}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknw0q4eef7axrxe469fx6fh'}}
+2025-02-09 18:27:20,399 - INFO - Use pytorch device_name: mps
+2025-02-09 18:27:20,399 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:27:24,904 - INFO - Connected to Postgres
+2025-02-09 18:27:24,952 - INFO - Data inserted into knowledge_base
+2025-02-09 18:31:05,615 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:31:05,616 - INFO - Response: {'id': 'chatcmpl-b71eaf20-4666-4e6a-8f72-80024cf14bef', 'object': 'chat.completion', 'created': 1739122265, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Name: SmolVLM\nKey Words: 视觉语言模型, 高效, 闪电检索, 视觉编码器, Tokenization\nSummary: Researchers have released SmolVLM, the world's smallest visual language model, which can run on less than 1GB of GPU memory and achieve 80% and 90% performance of 2.2B models with 256M and 500M parameters, respectively."}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.277303626, 'prompt_tokens': 587, 'prompt_time': 0.041238002, 'completion_tokens': 95, 'completion_time': 0.287819049, 'total_tokens': 682, 'total_time': 0.329057051}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jknw7jwjetkb6ah9nykxwzr3'}}
+2025-02-09 18:31:06,159 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:31:06,160 - INFO - Response: {'id': 'chatcmpl-0635321c-9a51-4c13-b514-d58ca7dbf5e1', 'object': 'chat.completion', 'created': 1739122266, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.27940115600000004, 'prompt_tokens': 587, 'prompt_time': 0.070146077, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 589, 'total_time': 0.071812744}, 'system_fingerprint': 'fp_a97cfe35ae', 'x_groq': {'id': 'req_01jknw7knfetk95yd8f10n1rey'}}
+2025-02-09 18:31:06,207 - INFO - Use pytorch device_name: mps
+2025-02-09 18:31:06,207 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:31:08,812 - INFO - Connected to Postgres
+2025-02-09 18:31:08,952 - INFO - Data inserted into knowledge_base
+2025-02-09 18:34:07,143 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:34:07,144 - INFO - Response: {'id': 'chatcmpl-55deac9f-8fe9-4bd7-90bf-44cbd282ee9d', 'object': 'chat.completion', 'created': 1739122446, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 法国图尔Citywalk: 从大教堂到隐秘小巷\n\nKey Words: 图尔, 卢瓦尔河谷, 城堡, 法国, 生活艺术, 文化, 美食, 老图尔, 普鲁姆罗广场, 圣马丁大教堂, 查理曼塔, 沙托诺夫广场, 城市漫步\n\nSummary: 图尔是法国卢瓦尔河谷大区的著名城市，拥有大量历史遗产，特别是老图尔的中世纪街区。城市漫步是探索图尔的最佳方式，可以欣赏到普鲁姆罗广场、圣马丁大教堂、查理曼塔等历史景点，并徜徉于风景如画的街道中。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.673109224, 'prompt_tokens': 676, 'prompt_time': 0.038585827, 'completion_tokens': 174, 'completion_time': 0.526337126, 'total_tokens': 850, 'total_time': 0.564922953}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jknwd3egfw7ba228vta41p9w'}}
+2025-02-09 18:34:07,697 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:34:07,698 - INFO - Response: {'id': 'chatcmpl-60d75810-665f-4fa8-bcbf-2559dd4d2670', 'object': 'chat.completion', 'created': 1739122447, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '旅游'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.265233294, 'prompt_tokens': 685, 'prompt_time': 0.08587083, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 687, 'total_time': 0.087537497}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknwd4yeetqt2hvrb7sq216a'}}
+2025-02-09 18:34:07,740 - INFO - Use pytorch device_name: mps
+2025-02-09 18:34:07,741 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:34:10,319 - INFO - Connected to Postgres
+2025-02-09 18:34:10,391 - INFO - Data inserted into knowledge_base
+2025-02-09 18:35:45,913 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:35:45,914 - INFO - Response: {'id': 'chatcmpl-3d515766-dca6-4917-a0c6-ee4a708c5d32', 'object': 'chat.completion', 'created': 1739122545, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 如何改变自己\n\nKey Words: 改变自己, 成长, 模仿, 输出, 规划, 读书, 尝试, 旅行, 解决问题\n\nSummary: 文章讲述了改变自己的九个方法：从小事开始改变，模仿优秀的人，专注于最重要的事，输出知识，规划和执行，读书和尝试新事物，旅行和解决问题。这些方法可以帮助人们逐步改变自己，变得更加自信和优秀。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.269237242, 'prompt_tokens': 806, 'prompt_time': 0.058478264, 'completion_tokens': 114, 'completion_time': 0.339310199, 'total_tokens': 920, 'total_time': 0.397788463}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jknwg4e4etvb1z163cep4wsr'}}
+2025-02-09 18:35:46,496 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:35:46,497 - INFO - Response: {'id': 'chatcmpl-a63a3e00-23c7-417c-9bef-0fa4475546b3', 'object': 'chat.completion', 'created': 1739122546, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '生活'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.287982805, 'prompt_tokens': 812, 'prompt_time': 0.096465184, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 814, 'total_time': 0.098131851}, 'system_fingerprint': 'fp_a97cfe35ae', 'x_groq': {'id': 'req_01jknwg5d4etvamcsk6kfsz8r1'}}
+2025-02-09 18:35:46,524 - INFO - Use pytorch device_name: mps
+2025-02-09 18:35:46,524 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:35:48,868 - INFO - Connected to Postgres
+2025-02-09 18:35:48,901 - INFO - Data inserted into knowledge_base
+2025-02-09 18:36:13,521 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:36:13,521 - INFO - Response: {'id': 'chatcmpl-4883d5c2-3d35-4d52-89c1-c9b77148b302', 'object': 'chat.completion', 'created': 1739122572, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 这5个日记问题，将彻底改变你的生活\n\nKey Words: 日记, 心理创造, 生活秩序, 命运, 成长, 能量提升, 重启人生\n\nSummary: 这篇文章介绍了五个关键日记问题，帮助我们深入思考自己的生活，重建生活秩序，并掌控命运。通过写日记，人们可以挖掘出更多有价值的想法，实现个人成长和能量提升。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.261145399, 'prompt_tokens': 504, 'prompt_time': 0.026047985, 'completion_tokens': 111, 'completion_time': 0.336903099, 'total_tokens': 615, 'total_time': 0.362951084}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jknwgzaceftb22qsnj5675zd'}}
+2025-02-09 18:36:14,237 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:36:14,237 - INFO - Response: {'id': 'chatcmpl-3af6314d-297e-4ce2-9194-a1e27530957d', 'object': 'chat.completion', 'created': 1739122574, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '生活'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.263415638, 'prompt_tokens': 510, 'prompt_time': 0.063308572, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 512, 'total_time': 0.064975239}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknwh0eqetw9nqjyyb0ytgdw'}}
+2025-02-09 18:36:14,263 - INFO - Use pytorch device_name: mps
+2025-02-09 18:36:14,263 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:36:16,227 - INFO - Connected to Postgres
+2025-02-09 18:36:16,233 - INFO - Data inserted into knowledge_base
+2025-02-09 18:38:15,211 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:38:15,212 - INFO - Response: {'id': 'chatcmpl-4a217b80-74a3-4234-8981-522744c8fa22', 'object': 'chat.completion', 'created': 1739122694, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 用六个月时间彻底改变生活的3个方法\n\nKey Words: 改变生活, 六个月, Dan Koe, 反愿景, 远离干扰, 长期主义\n\nSummary: 文章介绍了Dan Koe的三种方法，帮助人们在六个月内彻底改变生活：设想人生的“反愿景”，远离干扰，长期主义和持续精进。这些方法可以帮助人们明确目标，转化负面情绪，远离不必要的干扰，持之以恒地练习和追求更高的标准。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.017329743, 'prompt_tokens': 493, 'prompt_time': 0.036807555, 'completion_tokens': 138, 'completion_time': 0.405547598, 'total_tokens': 631, 'total_time': 0.442355153}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jknwmph3eaetpthmfmns4bgj'}}
+2025-02-09 18:38:15,864 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:38:15,865 - INFO - Response: {'id': 'chatcmpl-3e82ab22-d66f-453e-b612-e5a89eb4c5a9', 'object': 'chat.completion', 'created': 1739122695, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '生活'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.264588746, 'prompt_tokens': 499, 'prompt_time': 0.06241266, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 501, 'total_time': 0.064079327}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknwmq6eev19a1xwte791ftf'}}
+2025-02-09 18:38:15,900 - INFO - Use pytorch device_name: mps
+2025-02-09 18:38:15,900 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:38:19,562 - INFO - Connected to Postgres
+2025-02-09 18:38:19,576 - INFO - Data inserted into knowledge_base
+2025-02-09 18:38:57,361 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:38:57,361 - INFO - Response: {'id': 'chatcmpl-a67b5698-fd19-4d74-bbb1-7bbb86ebb30c', 'object': 'chat.completion', 'created': 1739122736, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: Change your life by journalling in 2024\n\nKey Words: 写日记, 生活秩序, 效率技巧, 学习, 个人管理, 思想, 压力, 焦虑, 决策, 感受, 幸福感, 人际关系, 规划未来行动\n\nSummary: 写日记可以改变人生，帮助人们掌控思想、缓解压力和焦虑、改变对生活的态度、做出更好的决策。文章介绍了写日记的三种层次：记录日常事件、表达感受、规划未来行动，并提供了多种写日记方法和技巧。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.524378886, 'prompt_tokens': 530, 'prompt_time': 0.030926955, 'completion_tokens': 154, 'completion_time': 0.468497987, 'total_tokens': 684, 'total_time': 0.499424942}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jknwnz1eev3tp5kr8r0dg30y'}}
+2025-02-09 18:38:57,974 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:38:57,975 - INFO - Response: {'id': 'chatcmpl-166dd7ab-ea1b-4040-a345-772fbe55ffad', 'object': 'chat.completion', 'created': 1739122737, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '生活'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.265368856, 'prompt_tokens': 536, 'prompt_time': 0.066949451, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 538, 'total_time': 0.068616118}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknwp0bnefwvw38hbpp3fspa'}}
+2025-02-09 18:38:57,999 - INFO - Use pytorch device_name: mps
+2025-02-09 18:38:58,000 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:39:00,368 - INFO - Connected to Postgres
+2025-02-09 18:39:00,401 - INFO - Data inserted into knowledge_base
+2025-02-09 18:40:18,053 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:40:18,055 - INFO - Response: {'id': 'chatcmpl-016a01b1-37ea-4dd4-b592-556b7cd83dd5', 'object': 'chat.completion', 'created': 1739122817, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Name: 巴黎买二手书买到爽的书店\nKey Words: Gibert Joseph, 二手书, 巴黎, 书店\nSummary: 作者喜欢逛巴黎的Gibert Joseph书店，因为那里有很多种类的新书和二手书，二手书保存完好，价格也很实惠，作者通过这个书店和网站recyclivre、marché的书摊淘二手书。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.018033867, 'prompt_tokens': 281, 'prompt_time': 0.017427765, 'completion_tokens': 101, 'completion_time': 0.295909942, 'total_tokens': 382, 'total_time': 0.313337707}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jknwrekheb2a1cb1m2waw1zt'}}
+2025-02-09 18:40:18,670 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 18:40:18,670 - INFO - Response: {'id': 'chatcmpl-25704993-ea71-4b32-9d70-fab08bc8558d', 'object': 'chat.completion', 'created': 1739122818, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '生活'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.264982464, 'prompt_tokens': 287, 'prompt_time': 0.035913672, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 289, 'total_time': 0.037580339}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jknwrf7gfwk9p2tvxw4jr2gw'}}
+2025-02-09 18:40:18,701 - INFO - Use pytorch device_name: mps
+2025-02-09 18:40:18,701 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 18:40:21,374 - INFO - Connected to Postgres
+2025-02-09 18:40:21,384 - INFO - Data inserted into knowledge_base
+2025-02-09 18:40:26,899 - INFO - Connected to Postgres
+2025-02-09 18:41:57,373 - INFO - Connected to Postgres
+2025-02-09 18:42:15,695 - INFO - Connected to Postgres
+2025-02-09 18:42:25,250 - INFO - Connected to Postgres
+2025-02-09 18:42:33,846 - INFO - Connected to Postgres
+2025-02-09 18:42:34,145 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 18:42:35,010 - INFO - Connected to Postgres
+2025-02-09 18:43:58,578 - INFO - Connected to Postgres
+2025-02-09 18:43:58,824 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 18:43:59,614 - INFO - Connected to Postgres
+2025-02-09 18:46:55,525 - INFO - Connected to Postgres
+2025-02-09 18:46:55,940 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 18:46:56,731 - INFO - Connected to Postgres
+2025-02-09 18:47:33,769 - INFO - Connected to Postgres
+2025-02-09 18:48:06,687 - INFO - Connected to Postgres
+2025-02-09 18:48:10,287 - INFO - Connected to Postgres
+2025-02-09 18:48:10,513 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 18:48:11,288 - INFO - Connected to Postgres
+2025-02-09 18:48:35,366 - INFO - Connected to Postgres
+2025-02-09 18:48:35,616 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 18:48:36,413 - INFO - Connected to Postgres
+2025-02-09 18:49:02,174 - INFO - Connected to Postgres
+2025-02-09 19:07:27,611 - INFO - Connected to Postgres
+2025-02-09 19:14:34,839 - INFO - Connected to Postgres
+2025-02-09 19:15:19,307 - INFO - Connected to Postgres
+2025-02-09 19:15:28,185 - INFO - Connected to Postgres
+2025-02-09 19:15:42,124 - INFO - Connected to Postgres
+2025-02-09 19:16:04,858 - INFO - Connected to Postgres
+2025-02-09 19:16:45,690 - INFO - Connected to Postgres
+2025-02-09 19:18:41,762 - INFO - Connected to Postgres
+2025-02-09 19:28:25,844 - INFO - Connected to Postgres
+2025-02-09 19:28:36,367 - INFO - Connected to Postgres
+2025-02-09 19:29:12,929 - INFO - Connected to Postgres
+2025-02-09 19:29:27,265 - INFO - Connected to Postgres
+2025-02-09 19:29:47,701 - INFO - Connected to Postgres
+2025-02-09 19:31:36,761 - INFO - Connected to Postgres
+2025-02-09 19:34:22,684 - INFO - Connected to Postgres
+2025-02-09 19:34:56,892 - INFO - Connected to Postgres
+2025-02-09 19:37:44,654 - INFO - Connected to Postgres
+2025-02-09 19:38:13,362 - INFO - Connected to Postgres
+2025-02-09 19:38:27,234 - INFO - Connected to Postgres
+2025-02-09 19:38:40,966 - INFO - Connected to Postgres
+2025-02-09 19:40:01,035 - INFO - Connected to Postgres
+2025-02-09 20:40:06,314 - INFO - Connected to Postgres
+2025-02-09 20:41:33,634 - INFO - Connected to Postgres
+2025-02-09 20:44:11,699 - INFO - Connected to Postgres
+2025-02-09 20:47:03,080 - INFO - Connected to Postgres
+2025-02-09 20:47:22,024 - INFO - Connected to Postgres
+2025-02-09 20:47:22,185 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 20:47:23,305 - INFO - Connected to Postgres
+2025-02-09 20:49:59,853 - INFO - Connected to Postgres
+2025-02-09 20:50:03,054 - INFO - Connected to Postgres
+2025-02-09 20:50:06,425 - INFO - Connected to Postgres
+2025-02-09 20:50:11,533 - INFO - Connected to Postgres
+2025-02-09 20:50:15,694 - INFO - Connected to Postgres
+2025-02-09 20:51:08,499 - INFO - Connected to Postgres
+2025-02-09 20:51:11,040 - INFO - Connected to Postgres
+2025-02-09 20:53:26,027 - INFO - Connected to Postgres
+2025-02-09 20:53:28,617 - INFO - Connected to Postgres
+2025-02-09 20:53:33,192 - INFO - Connected to Postgres
+2025-02-09 20:53:36,701 - INFO - Connected to Postgres
+2025-02-09 20:57:22,826 - INFO - Connected to Postgres
+2025-02-09 20:58:37,102 - INFO - Connected to Postgres
+2025-02-09 20:58:37,269 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 20:58:38,356 - INFO - Connected to Postgres
+2025-02-09 21:01:22,800 - INFO - Connected to Postgres
+2025-02-09 21:01:26,397 - INFO - Connected to Postgres
+2025-02-09 21:01:59,997 - INFO - Connected to Postgres
+2025-02-09 21:02:12,206 - INFO - Connected to Postgres
+2025-02-09 21:02:19,315 - INFO - Connected to Postgres
+2025-02-09 21:02:19,467 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:02:20,613 - INFO - Connected to Postgres
+2025-02-09 21:04:18,968 - INFO - Connected to Postgres
+2025-02-09 21:04:19,133 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:04:20,250 - INFO - Connected to Postgres
+2025-02-09 21:04:51,731 - INFO - Connected to Postgres
+2025-02-09 21:04:55,370 - INFO - Connected to Postgres
+2025-02-09 21:04:57,980 - INFO - Connected to Postgres
+2025-02-09 21:05:00,587 - INFO - Connected to Postgres
+2025-02-09 21:05:03,060 - INFO - Connected to Postgres
+2025-02-09 21:05:12,862 - INFO - Connected to Postgres
+2025-02-09 21:05:17,086 - INFO - Connected to Postgres
+2025-02-09 21:07:33,493 - INFO - Connected to Postgres
+2025-02-09 21:12:15,734 - INFO - Connected to Postgres
+2025-02-09 21:13:01,045 - INFO - Connected to Postgres
+2025-02-09 21:13:22,674 - INFO - Connected to Postgres
+2025-02-09 21:13:22,840 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:13:23,939 - INFO - Connected to Postgres
+2025-02-09 21:14:02,758 - INFO - Connected to Postgres
+2025-02-09 21:14:13,955 - INFO - Connected to Postgres
+2025-02-09 21:14:21,855 - INFO - Connected to Postgres
+2025-02-09 21:14:22,004 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:14:23,131 - INFO - Connected to Postgres
+2025-02-09 21:14:33,866 - INFO - Query executed
+2025-02-09 21:14:38,386 - INFO - Query executed
+2025-02-09 21:14:40,216 - INFO - Query executed
+2025-02-09 21:16:53,832 - INFO - Connected to Postgres
+2025-02-09 21:16:57,022 - INFO - Connected to Postgres
+2025-02-09 21:17:00,758 - INFO - Connected to Postgres
+2025-02-09 21:17:03,707 - INFO - Query executed
+2025-02-09 21:17:12,005 - INFO - Connected to Postgres
+2025-02-09 21:17:14,533 - INFO - Query executed
+2025-02-09 21:18:26,209 - INFO - Connected to Postgres
+2025-02-09 21:18:30,199 - INFO - Query executed
+2025-02-09 21:18:52,564 - INFO - Connected to Postgres
+2025-02-09 21:18:57,116 - INFO - Connected to Postgres
+2025-02-09 21:19:05,017 - INFO - Query executed
+2025-02-09 21:19:06,368 - INFO - Query executed
+2025-02-09 21:19:59,567 - INFO - Connected to Postgres
+2025-02-09 21:20:13,791 - INFO - Connected to Postgres
+2025-02-09 21:20:13,957 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:20:15,107 - INFO - Connected to Postgres
+2025-02-09 21:20:23,386 - INFO - Query executed
+2025-02-09 21:20:24,486 - INFO - Query executed
+2025-02-09 21:20:27,321 - INFO - Query executed
+2025-02-09 21:20:34,790 - INFO - Query executed
+2025-02-09 21:21:03,924 - INFO - Connected to Postgres
+2025-02-09 21:21:08,226 - INFO - Query executed
+2025-02-09 21:21:17,152 - INFO - Connected to Postgres
+2025-02-09 21:21:23,041 - INFO - Query executed
+2025-02-09 21:21:32,602 - INFO - Query executed
+2025-02-09 21:21:36,084 - INFO - Query executed
+2025-02-09 21:21:41,750 - INFO - Query executed
+2025-02-09 21:21:47,868 - INFO - Query executed
+2025-02-09 21:21:52,434 - INFO - Query executed
+2025-02-09 21:21:54,282 - INFO - Query executed
+2025-02-09 21:21:56,017 - INFO - Query executed
+2025-02-09 21:22:03,058 - INFO - Query executed
+2025-02-09 21:22:05,018 - INFO - Query executed
+2025-02-09 21:22:06,533 - INFO - Query executed
+2025-02-09 21:22:07,450 - INFO - Query executed
+2025-02-09 21:22:09,800 - INFO - Query executed
+2025-02-09 21:22:11,820 - INFO - Query executed
+2025-02-09 21:24:54,421 - INFO - Connected to Postgres
+2025-02-09 21:24:58,196 - INFO - Connected to Postgres
+2025-02-09 21:25:00,813 - INFO - Connected to Postgres
+2025-02-09 21:25:03,322 - INFO - Connected to Postgres
+2025-02-09 21:25:08,939 - INFO - Connected to Postgres
+2025-02-09 21:25:15,401 - INFO - Query executed
+2025-02-09 21:25:25,162 - INFO - Connected to Postgres
+2025-02-09 21:25:43,223 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 21:25:43,224 - INFO - Response: {'id': 'chatcmpl-3cf132e3-109b-4ef1-bf86-b2d5ebcb6835', 'object': 'chat.completion', 'created': 1739132742, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Title: Introducing SmolVLM: The World's Smallest Visual Language Model\n\nKey Words: SmolVLM, visual language model, GPU, ColiPali, Hugging Face Hub, efficient, high-performance, tokenization\n\nSummary: The research team has released SmolVLM, the world's smallest visual language model, which can run on a GPU with less than 1GB of memory. Despite its small size, SmolVLM achieves high performance, with the 256M version reaching 80% of the performance of a 2.2B model, and the 500M version reaching 90%. It also features a new visual encoder, higher pixel/token ratio, and intelligent tokenization, making it a highly efficient and powerful model."}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.020171757999999998, 'prompt_tokens': 604, 'prompt_time': 0.035262979, 'completion_tokens': 158, 'completion_time': 0.471279156, 'total_tokens': 762, 'total_time': 0.506542135}, 'system_fingerprint': 'fp_753a4aecf6', 'x_groq': {'id': 'req_01jkp67awbec8awg8dw0zkb4kj'}}
+2025-02-09 21:25:43,835 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 21:25:43,836 - INFO - Response: {'id': 'chatcmpl-f135d8e2-2ba7-4f8b-9d18-b62b4a758ebc', 'object': 'chat.completion', 'created': 1739132743, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.281830011, 'prompt_tokens': 595, 'prompt_time': 0.08210739, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 597, 'total_time': 0.083774057}, 'system_fingerprint': 'fp_6a6771ae9c', 'x_groq': {'id': 'req_01jkp67bnxev4v3d2qjfwhj5rk'}}
+2025-02-09 21:25:43,899 - INFO - Use pytorch device_name: mps
+2025-02-09 21:25:43,899 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 21:25:46,459 - INFO - Connected to Postgres
+2025-02-09 21:25:46,494 - INFO - Data inserted into knowledge_base
+2025-02-09 21:27:42,955 - INFO - Connected to Postgres
+2025-02-09 21:27:47,547 - INFO - Connected to Postgres
+2025-02-09 21:27:51,115 - INFO - Connected to Postgres
+2025-02-09 21:27:53,673 - INFO - Connected to Postgres
+2025-02-09 21:27:56,229 - INFO - Connected to Postgres
+2025-02-09 21:28:03,165 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 21:28:03,166 - INFO - Response: {'id': 'chatcmpl-b469fb03-86a9-46d7-8ce6-084760e08e39', 'object': 'chat.completion', 'created': 1739132882, 'model': 'llama3-70b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Title: SmolVLM:全球最小的视觉语言模型\n\nKey Words: SmolVLM, 视觉语言模型, 高效, 闪电检索, 视觉编码器, Tokenization, Hugging Face Hub\n\nSummary: 本文介绍了最新发布的SmolVLM，这是目前世界上最小的视觉语言模型，具有极致高效的特点，能够在不到1GB的GPU内存上运行。SmolVLM结合了ColiPali，实现了闪电检索，成本更低、速度更快。同时，SmolVLM还具有全新视觉编码器、更高像素/Token和智能Tokenization等特点，训练速度更快，性能还提升。模型、demo和博客已经登陆Hugging Face Hub，欢迎试用。'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.30666121399999996, 'prompt_tokens': 631, 'prompt_time': 0.033933898, 'completion_tokens': 187, 'completion_time': 0.567634198, 'total_tokens': 818, 'total_time': 0.601568096}, 'system_fingerprint': 'fp_2f30b0b571', 'x_groq': {'id': 'req_01jkp6bk89e7zakc3ndfjb6hhs'}}
+2025-02-09 21:28:03,774 - INFO - Request to https://api.groq.com/openai/v1/chat/completions
+2025-02-09 21:28:03,774 - INFO - Response: {'id': 'chatcmpl-9c167bac-e005-4e43-a8ee-3d2793877029', 'object': 'chat.completion', 'created': 1739132883, 'model': 'llama3-8b-8192', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '科技'}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'queue_time': 0.26371886899999997, 'prompt_tokens': 595, 'prompt_time': 0.074526128, 'completion_tokens': 2, 'completion_time': 0.001666667, 'total_tokens': 597, 'total_time': 0.076192795}, 'system_fingerprint': 'fp_179b0f92c9', 'x_groq': {'id': 'req_01jkp6bmd8e7z9y7bnmkywy0sa'}}
+2025-02-09 21:28:03,803 - INFO - Use pytorch device_name: mps
+2025-02-09 21:28:03,803 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-09 21:28:05,894 - INFO - Connected to Postgres
+2025-02-09 21:28:05,914 - INFO - Data inserted into knowledge_base
+2025-02-09 21:29:02,925 - INFO - Query executed
+2025-02-09 21:29:05,033 - INFO - Query executed
+2025-02-09 21:29:06,935 - INFO - Query executed
+2025-02-09 21:29:40,210 - INFO - Connected to Postgres
+2025-02-09 21:29:40,378 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:29:41,470 - INFO - Connected to Postgres
+2025-02-09 21:29:59,025 - INFO - Query executed
+2025-02-09 21:30:02,869 - INFO - Query executed
+2025-02-09 21:30:05,584 - INFO - Query executed
+2025-02-09 21:31:18,843 - INFO - Connected to Postgres
+2025-02-09 21:32:16,706 - INFO - Connected to Postgres
+2025-02-09 21:32:22,492 - INFO - Query executed
+2025-02-09 21:32:41,982 - INFO - Query executed
+2025-02-09 21:32:47,919 - INFO - Query executed
+2025-02-09 21:32:53,458 - INFO - Query executed
+2025-02-09 21:32:55,934 - INFO - Query executed
+2025-02-09 21:32:57,015 - INFO - Query executed
+2025-02-09 21:33:23,561 - INFO - Query executed
+2025-02-09 21:35:43,013 - INFO - Connected to Postgres
+2025-02-09 21:37:02,016 - INFO - Connected to Postgres
+2025-02-09 21:38:00,139 - INFO - Connected to Postgres
+2025-02-09 21:39:19,415 - INFO - Connected to Postgres
+2025-02-09 21:39:58,976 - INFO - Connected to Postgres
+2025-02-09 21:41:43,371 - INFO - Connected to Postgres
+2025-02-09 21:41:43,540 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 21:41:44,615 - INFO - Connected to Postgres
+2025-02-09 21:43:08,166 - INFO - Connected to Postgres
+2025-02-09 21:43:16,216 - INFO - Connected to Postgres
+2025-02-09 21:43:24,249 - INFO - Connected to Postgres
+2025-02-09 21:43:27,961 - INFO - Connected to Postgres
+2025-02-09 21:43:45,281 - INFO - Connected to Postgres
+2025-02-09 21:43:47,877 - INFO - Connected to Postgres
+2025-02-09 21:43:51,623 - INFO - Connected to Postgres
+2025-02-09 21:44:08,836 - INFO - Connected to Postgres
+2025-02-09 21:44:16,786 - INFO - Connected to Postgres
+2025-02-09 21:46:00,362 - INFO - Connected to Postgres
+2025-02-09 21:46:24,750 - INFO - Connected to Postgres
+2025-02-09 21:46:37,055 - INFO - Query executed
+2025-02-09 21:46:40,068 - INFO - Query executed
+2025-02-09 21:46:59,316 - INFO - Connected to Postgres
+2025-02-09 21:47:04,040 - INFO - Connected to Postgres
+2025-02-09 21:47:06,615 - INFO - Connected to Postgres
+2025-02-09 21:47:09,118 - INFO - Connected to Postgres
+2025-02-09 21:47:11,696 - INFO - Connected to Postgres
+2025-02-09 21:47:14,265 - INFO - Connected to Postgres
+2025-02-09 21:58:16,710 - INFO - Connected to Postgres
+2025-02-09 21:58:30,712 - INFO - Connected to Postgres
+2025-02-09 21:58:43,846 - INFO - Connected to Postgres
+2025-02-09 22:08:30,939 - INFO - Connected to Postgres
+2025-02-09 22:09:56,324 - INFO - Connected to Postgres
+2025-02-09 22:09:59,887 - INFO - Connected to Postgres
+2025-02-09 22:10:02,202 - INFO - Connected to Postgres
+2025-02-09 22:10:09,296 - INFO - Connected to Postgres
+2025-02-09 22:10:50,937 - INFO - Connected to Postgres
+2025-02-09 22:11:06,003 - INFO - Connected to Postgres
+2025-02-09 22:11:12,928 - INFO - Connected to Postgres
+2025-02-09 22:11:18,039 - INFO - Connected to Postgres
+2025-02-09 22:13:19,337 - INFO - Connected to Postgres
+2025-02-09 22:13:59,034 - INFO - Connected to Postgres
+2025-02-09 22:14:35,050 - INFO - Connected to Postgres
+2025-02-09 22:15:03,384 - INFO - Connected to Postgres
+2025-02-09 22:16:24,670 - INFO - Connected to Postgres
+2025-02-09 22:16:27,229 - INFO - Connected to Postgres
+2025-02-09 22:16:29,200 - INFO - Connected to Postgres
+2025-02-09 22:16:37,678 - INFO - Connected to Postgres
+2025-02-09 22:21:00,977 - INFO - Connected to Postgres
+2025-02-09 22:22:52,139 - INFO - Connected to Postgres
+2025-02-09 22:23:29,834 - INFO - Connected to Postgres
+2025-02-09 22:24:42,491 - INFO - Connected to Postgres
+2025-02-09 22:24:46,265 - INFO - Connected to Postgres
+2025-02-09 22:29:20,387 - INFO - Connected to Postgres
+2025-02-09 22:29:32,759 - INFO - Connected to Postgres
+2025-02-09 22:29:33,089 - INFO - Connected to Postgres
+2025-02-09 22:30:14,638 - INFO - Connected to Postgres
+2025-02-09 22:30:23,082 - INFO - Connected to Postgres
+2025-02-09 22:30:56,357 - INFO - Connected to Postgres
+2025-02-09 22:34:31,755 - INFO - Connected to Postgres
+2025-02-09 22:34:41,751 - INFO - Connected to Postgres
+2025-02-09 22:34:44,818 - INFO - Connected to Postgres
+2025-02-09 22:34:46,750 - INFO - Connected to Postgres
+2025-02-09 22:34:48,335 - INFO - Connected to Postgres
+2025-02-09 22:34:49,805 - INFO - Connected to Postgres
+2025-02-09 22:34:59,173 - INFO - Connected to Postgres
+2025-02-09 22:35:00,764 - INFO - Connected to Postgres
+2025-02-09 22:35:02,283 - INFO - Connected to Postgres
+2025-02-09 22:36:16,765 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 22:37:06,850 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-02-09 22:37:57,627 - INFO - Connected to Postgres
+2025-02-09 22:37:58,057 - INFO - Connected to Postgres
+2025-02-09 22:40:27,281 - INFO - Connected to Postgres
+2025-02-09 22:40:50,220 - INFO - Connected to Postgres
+2025-02-09 22:40:53,043 - INFO - Connected to Postgres
+2025-02-09 22:41:05,976 - INFO - Connected to Postgres
+2025-02-09 22:42:00,837 - INFO - Connected to Postgres
+2025-02-09 22:42:05,783 - INFO - Connected to Postgres
+2025-02-09 22:42:27,364 - INFO - Connected to Postgres
+2025-02-09 22:42:29,582 - INFO - Connected to Postgres
+2025-02-09 22:43:00,511 - INFO - Connected to Postgres
+2025-02-09 22:43:03,175 - INFO - Connected to Postgres
+2025-02-09 22:43:31,764 - INFO - Connected to Postgres
+2025-02-09 22:43:32,423 - INFO - Connected to Postgres
+2025-02-09 22:43:35,409 - INFO - Connected to Postgres
+2025-02-09 22:43:40,796 - INFO - Connected to Postgres
+2025-02-09 22:43:43,714 - INFO - Connected to Postgres
+2025-02-09 22:46:01,306 - INFO - Connected to Postgres
+2025-02-09 22:46:09,875 - INFO - Connected to Postgres
+2025-02-09 22:46:16,464 - INFO - Connected to Postgres
+2025-02-09 22:46:20,408 - INFO - Connected to Postgres
+2025-02-09 22:46:24,878 - INFO - Connected to Postgres
+2025-02-09 22:47:02,414 - INFO - Connected to Postgres
+2025-02-09 22:47:20,591 - INFO - Connected to Postgres
+2025-02-09 22:47:44,935 - INFO - Connected to Postgres
+2025-02-09 22:47:53,165 - INFO - Connected to Postgres
+2025-02-09 22:48:01,541 - INFO - Connected to Postgres
+2025-02-09 22:48:13,451 - INFO - Connected to Postgres
+2025-02-09 23:17:28,936 - INFO - Connected to Postgres
+2025-02-09 23:17:28,937 - INFO - Connected to Postgres
+2025-02-10 12:23:49,349 - INFO - Connected to Postgres

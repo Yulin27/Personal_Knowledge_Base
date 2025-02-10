@@ -2,6 +2,13 @@ from abc import ABC, abstractmethod
 import logging
 import requests
 
+# Configure logging to log into a file
+logging.basicConfig(
+    filename="logs/app.log",               # Log file name
+    filemode="a",                     # Append mode ('a') or overwrite ('w')
+    level=logging.INFO,               # Logging level (DEBUG, INFO, WARNING, etc.)
+    format="%(asctime)s - %(levelname)s - %(message)s",  # Log message format
+)
 
 class BaseModel(ABC):
     """
