@@ -47,6 +47,7 @@ def insert_doc(text: str, labels:list, name: str = None, keywords: list = None, 
     """
     # Initialize the document
     document = Document(text=text, name=name, keywords=keywords, summary=summary, category=category)
+    print("Document initialized")
     # Generate information about the document
     document.generate_info(labels=labels)
     # Insert the document into the Postgres database
@@ -54,5 +55,6 @@ def insert_doc(text: str, labels:list, name: str = None, keywords: list = None, 
     postgres.connect()
     postgres.insert_one_data(table_name="knowledge_base", data=document.to_dict())
     postgres.close()
+    logging.info(f"Document inserted into knowledge_base table")
 
 

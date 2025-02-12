@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import streamlit as st
 from src.database.postgres import Postgres
+from functions import insert_doc
 
 # Function to connect to the database
 def fetch_data():
@@ -129,5 +130,15 @@ def main():
         if st.button("Dismiss Details"):
             st.experimental_rerun()  # Refresh the page to clear the input
 
+    # Add a button to add document
+    if st.button("Add Document"):
+        st.write("### Add Document")
+       
+        text = st.text_area("Text:")
+        if st.button("Submit"):
+            labels = ["科技", "旅游", "生活"]
+            insert_doc(text, labels, title=title, keywords=keywords.split(","), summary=summary, category=category)
+            st.success("Document added successfully.")
+            st.experimental_rerun()
 if __name__ == "__main__":
     main()
